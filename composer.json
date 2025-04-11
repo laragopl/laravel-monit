@@ -23,5 +23,12 @@
     "config": {
         "sort-packages": true,
         "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laragopl\\LaravelMonit\\app\\Providers\\MonitServiceProvider"
+            ]
+        }
     }
 }
