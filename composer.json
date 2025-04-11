@@ -1,0 +1,27 @@
+{
+    "name": "laragopl/laravel-monit",
+    "description": "This package provides a simple way to send notifications to a specified endpoint whenever an error occurs in your Laravel application.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": ">=8.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laragopl\\LaravelMonit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Larago",
+            "email": "git@larago.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}

@@ -1,0 +1,8 @@
+* text=auto
+
+*.php diff=php
+*.md diff=md
+
+.gitattributes export-ignore
+.gitignore export-ignore
+README.md export-ignore
